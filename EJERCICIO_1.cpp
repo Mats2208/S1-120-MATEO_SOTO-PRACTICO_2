@@ -69,6 +69,7 @@ public:
         return recibir;
     }
 
+    //Lo mejor era usa operator, pero queria hacerlo a mi manera LMAO
     void MostrarDatos() {
         Queue<Package> recibir;
         Queue<Package> respaldo;

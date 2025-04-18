@@ -73,7 +73,7 @@ class clinica {
         pacientes.pop(temp);
         return temp;
     }
-
+    //Lo mejor era usa operator, pero queria hacerlo a mi manera LMAO
     void MostrarPacientes() {
         Queue<paciente> recibir;
         Queue<paciente> respaldo;
